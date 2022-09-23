@@ -1,12 +1,15 @@
-# __Doctemp UI Design__
+# **Doctemp UI Design**
+
 ## _UI for doctemp project_
 
 Knowledge requirement:
-- Nodejs install 
+
+- Nodejs install
 - SASS
 - LESS
-- JS 
+- JS
 - TypeScript
 - React
 - Webpack
-##
+
+###

@@ -43,7 +43,7 @@
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100% 100%;
-    content: '';
+    content: "";
   }
 
   &:hover {
@@ -164,7 +164,7 @@
     @include border-radius($swiper-pagination-bullet-pseudo-border-radius);
     transform: translate(-50%, -50%);
     transition: $transition-timing-sm;
-    content: '';
+    content: "";
   }
 
   &:hover {
@@ -172,7 +172,7 @@
 
     &::before {
       background-color: $swiper-pagination-bullet-pseudo-hover-bg-color;
-    } 
+    }
   }
 }
 
@@ -199,7 +199,7 @@
 
       &::before {
         background-color: $swiper-pagination-light-bullet-pseudo-hover-bg-color;
-      } 
+      }
     }
   }
 
@@ -282,7 +282,7 @@
       width: 100%;
       height: $swiper-step-pagination-item-pseudo-height;
       background-color: $swiper-step-pagination-item-pseudo-bg-color;
-      content: '';
+      content: "";
     }
   }
 
@@ -341,7 +341,7 @@
 .swiper-pagination-fraction {
   display: block;
   letter-spacing: $swiper-pagination-fraction-letter-spacing;
-  
+
   .swiper-pagination-current {
     font-size: $swiper-pagination-fraction-current-font-size;
     line-height: $swiper-pagination-fraction-current-font-size;
@@ -355,7 +355,7 @@
 
 .swiper-thumbs .swiper-slide {
   cursor: pointer;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .swiper-thumbs .swiper-slide-thumb-active {
@@ -367,7 +367,7 @@
   .swiper-wrapper {
     display: flex;
   }
-  
+
   .swiper-slide {
     display: flex;
     height: auto;
@@ -429,7 +429,7 @@
       box-shadow: $swiper-step-divider-pseudo-before-box-shadow;
       @include border-radius($swiper-step-divider-pseudo-border-radius);
       transform: translateY(-50%);
-      content: '';
+      content: "";
     }
 
     &::after {
@@ -441,7 +441,7 @@
       background-color: $swiper-step-divider-bg-color;
       @include border-radius($swiper-step-divider-pseudo-border-radius);
       transform: translateY(-50%);
-      content: '';
+      content: "";
     }
   }
 }
@@ -453,8 +453,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .swiper-thumb-progress-avatar {
